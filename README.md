@@ -54,7 +54,7 @@ tourist-site/
 
 ---
 
-## 🧾 Explicação do Código
+## 🧾 Explanation of the Code
 
 ### `index.html`
 
