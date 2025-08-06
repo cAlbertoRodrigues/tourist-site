@@ -2,7 +2,19 @@
     margin: 0;
     padding: 0;
     background-color: #f5f4f0;
-    font-family: "Alice", serif;
+    font-family: var(--Open);
+}
+
+:root {
+    --Open: 'Open Sans', sans-serif;
+    --headline: 16px bold;
+    --subtitle: 16px italic;
+
+    --red: #E1624F;
+    --blue: #0C51A7;
+    --purple: #591B98;
+    --pink: #E5245E;
+    --orange: #E95E10;
 }
 
 
@@ -11,12 +23,24 @@
 }
 
 .headline {
-    color: #E1624F;
-    font-size: 16px bold;
+    color: var(--red);
+    font-size: var(--headline);
 }
 
 h1 {
     font-size: 36px bold;
+}
+
+h2 {
+    font-size: 32px bold;
+}
+
+h3 {
+    font-size: 28px bold;
+}
+
+.subtittle {
+    font-size: var(--subtitle);
 }
 
 .img {
@@ -27,20 +51,13 @@ h1 {
     padding-bottom: 10px;
 }
 
-.subtittle {
-    text-align: center;
-    font-style: italic;
-}
 
-h2 {
-    font-size: 32px bold;
-}
 
 p {
     font-size: 16px;
 }
 
-.container #distance {
+.padding-bottom {
     padding-bottom: 40px;
 }
 
@@ -49,20 +66,20 @@ p {
     margin: auto 80px auto 80px;
 }
 
-#color1 {
-    color: #0C51A7;
+#blue {
+    color: var(--blue);
 }
 
-#color2 {
-    color: #591B98;
+#purple {
+    color: var(--purple);
 }
 
-#color3 {
-    color: #E5245E;
+#pink {
+    color: var(--pink);
 }
 
-#color4 {
-    color: #E95E10;
+#orange {
+    color: var(--orange);
 }
 
 .creditos {
